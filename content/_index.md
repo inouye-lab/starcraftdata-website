@@ -1,3 +1,4 @@
+---
 # Leave the homepage title empty to use the site title
 title:
 date: 2022-3-26
@@ -260,4 +261,5 @@ sections:
 #          captcha: false
 #    design:
 #      columns: '2'
+
 ---
