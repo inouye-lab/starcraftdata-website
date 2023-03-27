@@ -4,14 +4,23 @@ date: 2022-3-26
 type: landing
 
 sections:
-  - block: about.avatar
-    id: about
+  - block: markdown
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      # Override your bio text from `authors/admin/_index.md`?
-      text: Overriden text bio.
-
+      title: StarCraftImage
+      subtitle: Dataset and code 
+      text: This site is currently under construction. Please check back soon! 
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+#  - block: about.avatar
+#    id: about
+#    content:
+#      # Choose a user profile to display (a folder name within `content/authors/`)
+#      username: admin
+#      # Override your bio text from `authors/admin/_index.md`?
+#      text: Overriden text bio.
+#
 #  - block: features
 #    content:
 #      title: Skills
