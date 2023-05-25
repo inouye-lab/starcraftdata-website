@@ -9,7 +9,7 @@ sections:
     content:
       title: StarCraftImage
       subtitle: Dataset and code 
-      text: This site is currently under construction. Please check back soon! 
+      text: This site is currently under construction. <br> <br> This will be ready by May 31st! For more information or to be contacted when this is ready, please email us at [dinouye@purdue.edu](mailto:dinouye@purdue.edu)
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.

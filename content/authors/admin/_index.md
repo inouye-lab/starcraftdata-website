@@ -78,4 +78,4 @@ interests:
 ---
 StarCraftData is dedicated to hosting easy-to-use datasets for machine learning and computer vision based on StarCraft II replays from human players.
 
-Currently this website is under construction but check back soon!
+Currently this website is under construction, but we will updated soon!
