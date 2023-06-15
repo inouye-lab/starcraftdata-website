@@ -10,10 +10,19 @@ main:
   # - name: Courses
   #   weight: 20
   #   identifier: courses
-  - name: Home
-    PageRef: starcraftimage/_index.md
-    weight: 0
-    # parent: courses
+  # - name: Home
+  #   url: '/'
+  #   weight: 10
+
+  - name: Documentation
+    PageRef: docs/_index.md
+    weight: 20
+  - name: Paper
+    url: https://openaccess.thecvf.com/content/CVPR2023/papers/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.pdf
+    weight: 30
+  - name: Github
+    url: https://github.com/inouye-lab/starcraftimage
+    weight: 100
 
 #  - name: Posts
 #    url: '#posts'

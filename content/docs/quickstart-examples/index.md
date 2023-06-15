@@ -54,7 +54,8 @@ from sc2image.dataset import StarCraftImage, StarCraftCIFAR10, StarCraftMNIST
 data_dir = Path('..') / 'data'
 ```
 
-# Load the datasets.
+## Dataset overview
+
 There are three main StarCraftII datasets. 
 Each dataset includes images summarize a 10 second window (255 frames) of a StarCraftII replay.
 
@@ -89,7 +90,9 @@ pprint.pprint(_DEFAULT_10_LABELS_DICT)  # pretty prints the label dictionary
      9: ('Odyssey LE', 'End')}
 
 
-### Loading in the simplified datasets
+
+## Loading the simplified datasets
+### StarCraftCIFAR10
 
 
 ```python
@@ -110,10 +113,10 @@ plt.show()
 
 
     
-![png](quickstart-figures/starcraftimage-quickstart_6_3.png)
+![starcraft-cifar10](./starcraft-cifar10.png)
     
 
-
+### StarCraftMNIST
 
 ```python
 mnist = StarCraftMNIST(data_dir, train=True, download=True)
@@ -132,12 +135,11 @@ plt.show()
 
 
 
-    
-![png](quickstart-figures/starcraftimage-quickstart_7_3.png)
+![starcraft-mnist-figure](./starcraft-mnist.png)
     
 
 
-### Loading in the StarCraftImage dataset
+## Loading StarCraftImage
 
 This dataset is the most expressive dataset and includes all unit positioning information throughout the window.
 There are two main types of image formats used (here `image_size` is a hyperparameter that can be set by the user and has a default value of 64):  
@@ -208,7 +210,7 @@ for image_format in ['dense-hyperspectral', 'sparse-hyperspectral', 'bag-of-unit
     
 
 
-### Additional return options for StarCraftImage dataset
+### Additional return options for StarCraftImage
 In addition to the image formats, there are also additional return options that can be set by the user:
 - `return_label`: If set to `True`, this returns the classification label for the window which corresponds to the `(map_name, did_window_happen_in_first_half_of_replay)`.
  This also requires specifying `label_kind` which can either be set to `14 class` (which includes all 7 maps) or `10 class` (which only includes samples from the five most popular maps).
