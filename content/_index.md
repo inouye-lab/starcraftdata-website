@@ -9,7 +9,7 @@ sections:
     content:
       title: StarCraftImage
       subtitle: Dataset and code 
-      text: This website is currently under construction!<br/><br/>__Please see [our StarCraftImage github repository](https://github.com/inouye-lab/starcraftimage) for the dataset and relevant code including some initial demos.__ <br/><br/> We will be updating our website soon with more information. If you would like updates, please email us at [dinouye@purdue.edu](mailto:dinouye@purdue.edu).
+      text: This website is currently under construction!<br/><br/>Please see [our github repository](https://github.com/inouye-lab/starcraftimage) to see how you can use the `StarCraftImage` datasets! For more information or to be contacted when this is ready, please email us at [dinouye@purdue.edu](mailto:dinouye@purdue.edu).
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
