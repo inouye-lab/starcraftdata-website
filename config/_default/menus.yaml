@@ -4,9 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  # - name: Home
+  #   url: '#about'
+  #   weight: 10
+  # - name: Courses
+  #   weight: 20
+  #   identifier: courses
   - name: Home
-    url: '#about'
-    weight: 10
+    PageRef: starcraftimage/_index.md
+    weight: 0
+    # parent: courses
 
 #  - name: Posts
 #    url: '#posts'
