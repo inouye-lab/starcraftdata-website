@@ -22,7 +22,7 @@ organizations:
     url: https://www.purdue.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Test bio.
+# bio: 
 
 # Interests to show in About widget
 interests:
@@ -77,5 +77,3 @@ interests:
 #highlight_name: true
 ---
 StarCraftData is dedicated to hosting easy-to-use datasets for machine learning and computer vision based on StarCraft II replays from human players.
-
-Currently this website is under construction, but we will updated soon!
