@@ -98,11 +98,11 @@ make_dataset_grid(cifar, n_samples=9, label_idx_to_name=_DEFAULT_10_LABELS_DICT)
 plt.show()
 ```
 
-    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40719791/starcraftcifar10.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20230526/eu-west-1/s3/aws4_request&X-Amz-Date=20230526T003840Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=673bd603ea1fc94b631b23c5ee00ea3938e3fd9195265e3d4b8551a70de53c50 to ../data/starcraft-cifar10.tar.gz
+    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40719791/starcraftcifar10.tar.gz to ../data/starcraft-cifar10.tar.gz
 
 
 
-      0%|          | 0/9318685 [00:00<?, ?it/s]
+      100%|########| 9318685/9318685
 
 
     Extracting ../data/starcraft-cifar10.tar.gz to ../data
@@ -110,7 +110,7 @@ plt.show()
 
 
     
-![png](./starcraftimage-quickstart_6_3.png)
+![png](quickstart-figures/starcraftimage-quickstart_6_3.png)
     
 
 
@@ -121,11 +121,11 @@ make_dataset_grid(mnist, n_samples=9, label_idx_to_name=_DEFAULT_10_LABELS_DICT)
 plt.show()
 ```
 
-    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40720142/starcraftmnist.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20230526/eu-west-1/s3/aws4_request&X-Amz-Date=20230526T003846Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=b009d6d5a167879b8fd248cd9946806fbaea73cf18209ffc4a1a366f1baf3447 to ../data/StarCraftMNIST/raw/starcraft-mnist.tar.gz
+    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40720142/starcraftmnist.tar.gz? to ../data/StarCraftMNIST/raw/starcraft-mnist.tar.gz
 
 
 
-      0%|          | 0/8777215 [00:00<?, ?it/s]
+      100%|#######| 8777215/8777215
 
 
     Extracting ../data/StarCraftMNIST/raw/starcraft-mnist.tar.gz to ../data/StarCraftMNIST/raw
@@ -133,7 +133,7 @@ plt.show()
 
 
     
-![png](./starcraftimage-quickstart_7_3.png)
+![png](quickstart-figures/starcraftimage-quickstart_7_3.png)
     
 
 
@@ -172,11 +172,11 @@ for image_format in ['dense-hyperspectral', 'sparse-hyperspectral', 'bag-of-unit
     print()
 ```
 
-    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40718405/starcraftimagedataset.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20230526/eu-west-1/s3/aws4_request&X-Amz-Date=20230526T003850Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=4847fb3dce77de77713e5c2cbfeef98812405c7aeab556afb7c5e2b4d9e62c2c to ../data/starcraft-image-dataset_v1_0/starcraftimage.tar.gz
+    Downloading https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/40718405/starcraftimagedataset.tar.gz to ../data/starcraft-image-dataset_v1_0/starcraftimage.tar.gz
 
 
 
-      0%|          | 0/10914999592 [00:00<?, ?it/s]
+      100%|#######| 10914999592/10914999592
 
 
     Extracting ../data/starcraft-image-dataset_v1_0/starcraftimage.tar.gz to ../data/starcraft-image-dataset_v1_0
