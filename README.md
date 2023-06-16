@@ -5,6 +5,23 @@ Welcome! This is the repository for the StarCraftImage website dataset from the 
 
 ![StarCraftImageDataset Overview Figure](figures/dataset-overview-figure.png)
 
+## Installation
+
+We recommend using the `pip` package manager to install `sc2image`.
+
+```bash
+pip install sc2image
+```
+
+Note, this does not include the `dataset-demos` folder which contains jupyter notebooks which show example uses of the dataset.
+To use them, you should install from source via:
+    
+```bash
+git clone git@github.com:inouye-lab/starcraftimage.git
+cd starcraftimage
+pip install -e .
+```
+
 ## Quickstart
 
 There are three main StarCraftII datasets. 

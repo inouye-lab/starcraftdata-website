@@ -8,7 +8,7 @@ type: book
 
 ## Prerequisites
 
-Please install the StarCraftImage package. This can be done via following [the install instructions](/starcraftimage#install)
+Please install the StarCraftImage package. This can be done via following [the install instructions](/docs#install)
 ```python
 from pathlib import Path
 import torch
