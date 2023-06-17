@@ -10,8 +10,8 @@ sections:
       title: StarCraftImage
       subtitle: Dataset and code 
       text: |-
-        <figure>
-            <img src="dataset-overview-figure.png" style="max-width:930px; margin: auto;" alt="Dataset Overview Figure">
+        <figure style="max-width:930px;">
+            <img src="dataset-overview-figure.png" alt="Dataset Overview Figure">
         </figure>
 
         StarCraftImage is a large-scale easy-to-use spatial reasoning dataset that includes 3.6 million images that summarize 10-second windows of human-played matches from the StarCraft II video game.
