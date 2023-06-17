@@ -39,7 +39,7 @@ sections:
             <figcaption>
             Additional examples of StarCraftImage. StarCraftImage includes a hyperspectral image format that includes all information at a resolution of 64 x 64 (left), an RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and a grayscale format that matches MNIST at a resolution of 28 x 28.
             </figcaption>
-            <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
+            <img src="hyper-cifar-mnist-example-grids.png" style="max-width:930px" alt="StarCraftImage Additional Examples">
         </figure>
 
         <style>
