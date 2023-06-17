@@ -12,10 +12,6 @@ sections:
       text: |-
         StarCraftImage is a large-scale easy-to-use spatial reasoning dataset that includes 3.6 million images that summarize 10-second windows of human-played matches from the StarCraft II video game.
         This work was presented in CVPR 2023: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
-        
-        <figure>
-            <img src="dataset-overview-figure.png" alt="Dataset Overview Figure">
-        </figure>
 
         <div class="row">
             <div class="box">
@@ -36,10 +32,14 @@ sections:
         </div>
 
         <figure>
-            <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
+            <img src="dataset-overview-figure.png" alt="Dataset Overview Figure">
+        </figure>
+
+        <figure style="margin-top:4em;">
             <figcaption>
-            StarCraftImage includes a hyperspectral image format that includes all information at a resolution of 64 x 64 (left), an RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and a grayscale format that matches MNIST at a resolution of 28 x 28.
+            Additional examples of StarCraftImage. StarCraftImage includes a hyperspectral image format that includes all information at a resolution of 64 x 64 (left), an RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and a grayscale format that matches MNIST at a resolution of 28 x 28.
             </figcaption>
+            <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
         </figure>
 
         <style>
