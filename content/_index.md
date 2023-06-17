@@ -10,7 +10,7 @@ sections:
       title: StarCraftImage
       subtitle: Dataset and code 
       text: |-
-        <figure style="max-width:930px;">
+        <figure style="max-width:930px; margin:auto;">
             <img src="dataset-overview-figure.png" alt="Dataset Overview Figure">
         </figure>
 
