@@ -37,7 +37,7 @@ sections:
 
         The image below showcases additional examples from StarCraftImage including the hyperspectral format that includes all unit type information at a resolution of 64 x 64 (left), the RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and the grayscale format that matches MNIST at a resolution of 28 x 28.
 
-        <figure style="margin-top:4em;">
+        <figure style="margin-top:2em;">
             <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
         </figure>
 
