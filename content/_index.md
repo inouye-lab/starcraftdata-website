@@ -10,22 +10,13 @@ sections:
       title: StarCraftImage
       subtitle: Dataset and code 
       text: |-
-        StarCraftImage is a large-scale easy to use spatial reasoning including 3.6 million images summarizing 10-seconds of human-played matches from the StarCraft II video game.
-        This work was presented in CVPR 23' via the publication: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
+        StarCraftImage is a large-scale easy-to-use spatial reasoning dataset that includes 3.6 million images that summarize 10-second windows of human-played matches from the StarCraft II video game.
+        This work was presented in CVPR 2023: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
         
         <figure>
-            <img src="hyper-cifar-mnist-example-grids.png" alt="Dataset Overview Figure">
+            <img src="dataset-overview-figure.png" alt="Dataset Overview Figure">
         </figure>
 
-        <!--
-
-        </br>
-        
-        This website is currently under construction, but in the meantime please see [our github repository](https://github.com/inouye-lab/starcraftimage) to see how you can use the `StarCraftImage` datasets!
-            
-        For more information or to be contacted when this is ready, please email us at [dinouye@purdue.edu](mailto:dinouye@purdue.edu).
-        -->
-        
         <div class="row">
             <div class="box">
                 <a href="/docs/">
@@ -33,16 +24,23 @@ sections:
                 </a>
             </div>
             <div class="box">
-                <a href="https://github.com/inouye-lab/starcraftimage">
+                <a target="_blank" href="https://github.com/inouye-lab/starcraftimage">
                     <h3>GitHub Repo</h3>
                 </a>
             </div>
             <div class="box">
-                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.pdf">
+                <a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2023/papers/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.pdf">
                     <h3>CVPR 23' Paper</h3>
                 </a>
             </div>
         </div>
+
+        <figure>
+            <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
+            <figcaption>
+            StarCraftImage includes a hyperspectral image format that includes all information at a resolution of 64 x 64 (left), an RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and a grayscale format that matches MNIST at a resolution of 28 x 28.
+            </figcaption>
+        </figure>
 
         <style>
             .row {
@@ -69,7 +67,6 @@ sections:
                 }
             }
         </style>
-
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
