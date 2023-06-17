@@ -10,6 +10,10 @@ sections:
       title: StarCraftImage
       subtitle: Dataset and code 
       text: |-
+        <figure>
+            <img src="dataset-overview-figure.png" style="max-width:930px;" alt="Dataset Overview Figure">
+        </figure>
+
         StarCraftImage is a large-scale easy-to-use spatial reasoning dataset that includes 3.6 million images that summarize 10-second windows of human-played matches from the StarCraft II video game.
         This work was presented in CVPR 2023: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
 
@@ -31,14 +35,9 @@ sections:
             </div>
         </div>
 
-        <figure>
-            <img src="dataset-overview-figure.png" style="max-width:930px" alt="Dataset Overview Figure">
-        </figure>
+        The image below showcases additional examples from StarCraftImage including the hyperspectral format that includes all unit type information at a resolution of 64 x 64 (left), the RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and the grayscale format that matches MNIST at a resolution of 28 x 28.
 
         <figure style="margin-top:4em;">
-            <figcaption>
-            Additional examples of StarCraftImage. StarCraftImage includes a hyperspectral image format that includes all information at a resolution of 64 x 64 (left), an RGB format that matches CIFAR10 at a resolution of 32 x 32 (middle) and a grayscale format that matches MNIST at a resolution of 28 x 28.
-            </figcaption>
             <img src="hyper-cifar-mnist-example-grids.png" alt="StarCraftImage Additional Examples">
         </figure>
 
@@ -48,6 +47,7 @@ sections:
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
+                margin-bottom: 2em;
             }
             
             .box {
