@@ -1,6 +1,6 @@
 # StarCraftImage Dataset
 
-Welcome! This is the repository for the StarCraftImage website dataset from the paper: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
+Welcome! This is the repository for the StarCraftImage website dataset from the paper: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://arxiv.org/abs/2401.04290)
 
 
 ![StarCraftImageDataset Overview Figure](figures/dataset-overview-figure.png)
@@ -73,6 +73,6 @@ If you use this dataset, please cite the following paper:
 }
 ```
 
-If you run into any issues, please feel free to open an issue in this repository or email us via the corresponding author email in the [main paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html).
+If you run into any issues, please feel free to open an issue in this repository or email us via the corresponding author email in the [main paper](https://arxiv.org/abs/2401.04290).
 
 Cheers!
