@@ -15,7 +15,7 @@ sections:
         </figure>
 
         StarCraftImage is a large-scale easy-to-use spatial reasoning dataset that includes 3.6 million images that summarize 10-second windows of human-played matches from the StarCraft II video game.
-        This work was presented in CVPR 2023: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://openaccess.thecvf.com/content/CVPR2023/html/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.html)
+        This work was presented in CVPR 2023: [StarCraftImage: A Dataset For Prototyping Spatial Reasoning Methods For Multi-Agent Environments](https://arxiv.org/abs/2401.04290)
 
         <div class="row">
             <div class="box">
@@ -29,7 +29,7 @@ sections:
                 </a>
             </div>
             <div class="box">
-                <a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2023/papers/Kulinski_StarCraftImage_A_Dataset_for_Prototyping_Spatial_Reasoning_Methods_for_Multi-Agent_CVPR_2023_paper.pdf">
+                <a target="_blank" href="https://arxiv.org/abs/2401.04290">
                     <h3>CVPR 23' Paper</h3>
                 </a>
             </div>
